@@ -1,0 +1,65 @@
+.food{
+	border: 0px solid black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+
+.product{
+	
+	height: 370px;
+	width: 350px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+	transition: transform 1s;
+	background-image: radial-gradient(circle,rgba(241,194,125,1),rgba(241,194,125,.2));
+}
+
+.product:hover{
+	transform: scale(1.08);
+}
+
+.product img{
+	width: 100%;.p{
+		margin-left: 50px;
+	}
+}
+
+.checked{
+	color: orange;
+}
+
+.starr{
+	
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.para{
+	text-align: center;
+	margin-top:-10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+h1{
+	font-family: 'Berkshire Swash', cursive;
+	
+}
+
+.p{
+	text-align: center;
+	font-weight: bold;
+	background-color: #C8C4C4;
+	padding: 5px;
+}
+
+.innerpara{
+	font-weight:normal;
+	font-size: 15px;
+}

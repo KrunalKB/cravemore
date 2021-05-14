@@ -1,0 +1,165 @@
+
+/* start header */
+.a{
+	background-color: white;
+
+}
+
+#menu ul
+{
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style:none;
+}
+
+#menu ul li
+{
+	
+	background-color:#fff ;
+	border:2px solid white;
+	width:150px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	float:right;
+	transition: 0.5s all;
+	
+}
+
+#menu ul li:hover
+{
+	background-color: #ffb17a ;
+	border-radius:2px;
+	box-shadow: 2px 2px 5px  #999;
+}
+
+#menu ul li a.active
+{
+	background:#ffb17a;
+	border-radius:6px;
+	box-shadow: 2px 2px 5px  #999;
+}
+
+#menu ul li a
+{
+	text-decoration:none;
+	color:#000;
+	display:block;
+	font-weight:bold;
+	
+}
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+/* end header */
+
+
+/* start contact us */
+.container {
+	display: flex;
+	
+}
+body{
+	background-image: radial-gradient(circle,rgba(241,194,125,1),rgba(241,194,125,.2));
+
+
+}
+
+.title{
+	text-align:center;
+	font-weight: bold;
+	font-size:25px;
+	width:100%;
+	height:50px;
+	}	
+
+.contactform{
+		width:100%; 
+	height:500px;
+}
+ .cform{
+ 	position:absolute;
+ 	top:300px;
+ 	left:50px;
+ 	background-color: rgba(255,255,255,0.8);
+ 	margin:10px;
+ 	padding:20px;
+ 	width: 350px;
+ 	border-radius: 20px;
+ 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+ }
+
+ .inputbox{
+ 	padding-left: 40px;
+}
+
+.form{
+	padding: 5px;
+	width: 250px;
+	border: 10;
+	
+}
+
+.contactinfo{
+	background-color:rgba(255,255,255,0.8);
+	width:40%;
+	position:absolute;
+	top:310px;
+	right:60px;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+
+}
+	
+.sci{
+	display:flex;
+	justify-content: space-around;
+}
+
+
+#error_message{
+	margin-bottom: 20px;
+	padding:0px;
+	background: #fe8b8e;
+	text-align: center;
+	font-size: 14px;
+	transition: all 0.5s ease;
+}
+
+
+/* end contact us */
+
+/* start footer */
+.footer{
+	height:150px;
+	width:100%;
+	background-color:black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-box{
+	height:140px;
+	width:30%;
+	float:left;
+	color:white;
+	text-align:center;
+	
+	
+}
+
+.footer-box:a{
+	text-decoration:none;	
+}
+
+.link{
+	text-decoration: none;
+    color: #fff;
+}
+/* end footer */

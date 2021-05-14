@@ -1,0 +1,147 @@
+/* start header */
+
+#menu ul
+{
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style:none;
+}
+
+#menu ul li
+{
+	
+	background-color:#fff ;
+	border:2px solid white;
+	width:150px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	float:right;
+	transition: 0.5s all;
+	
+}
+
+#menu ul li:hover
+{
+	background-color: #ffb17a ;
+	border-radius:2px;
+	box-shadow: 2px 2px 5px  #999;0
+}
+
+#menu ul li a.active
+{
+	background:#ffb17a;
+	border-radius:6px;
+	box-shadow: 2px 2px 5px  #999;
+}
+
+#menu ul li a
+{
+	text-decoration:none;
+	color:#000;
+	display:block;
+	font-weight:bold;
+	
+}
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+/* end header */
+
+/* start animation */
+.animation{ 
+	margin-left: 600px;
+	width: 0ch;
+	overflow: hidden;
+	white-space:nowrap;
+	animation: typing 6s steps(25) infinite;
+	border-right: 3px solid black;
+	font-family: 'Berkshire Swash', cursive;
+	background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes typing{
+	0%{
+		width: 0ch;
+	}
+	50%{
+		width: 21ch;
+	}
+}
+/* end animation */
+
+/* start our service*/
+section.our-services{
+	background-color:#eee;
+	text-align:center;
+	padding-top: 4px;
+	padding-bottom: 60px;
+	padding-left:15px;
+	padding-right:15px;
+	
+}
+
+section.our-services .service-card{
+	background-color:#fff;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+	position:relative;
+	margin-right:20px;
+	margin-top:20px;
+	width:33.33%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+	
+}
+
+section.our-services .service-card .icon{
+	position:absolute;
+	top:-20px;
+	left:45%;
+}
+	
+
+section.our-services .card-wrapper{
+	padding-left:15%;
+	padding-right:15%;
+	display:flex;
+}
+
+/* end our service*/
+
+/* start footer */
+.footer{
+	height:150px;
+	width:100%;
+	background-color:black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-box{
+	height:140px;
+	width:30%;
+	float:left;
+	color:white;
+	text-align:center;
+	
+	
+}
+
+.footer-box:a{
+	text-decoration:none;	
+}
+
+.link{
+	text-decoration: none;
+    color: #FFF;
+}
+/* end footer */

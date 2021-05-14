@@ -1,0 +1,145 @@
+/* start header */
+.a{
+	background-color: white;
+
+}
+
+#menu ul
+{
+	padding-top: 100px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	list-style:none;
+}
+
+#menu ul li
+{
+	
+	background-color:#fff ;
+	border:2px solid white;
+	width:150px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	float:right;
+	transition: 0.5s all;
+	
+}
+
+#menu ul li:hover
+{
+	background-color:#ffb17a;
+	border-radius:2px;
+	box-shadow: 2px 2px 5px  #999;
+}
+
+#menu ul li a.active
+{
+	background:#ffb17a;
+	border-radius:6px;
+	box-shadow: 2px 2px 5px  #999;
+}
+
+#menu ul li a
+{
+	text-decoration:none;
+	color:#000;
+	display:block;
+	font-weight:bold;
+	
+}
+.logo-img{
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+/* end header */
+body{
+	background-image: radial-gradient(circle,rgba(241,194,125,1),rgba(241,194,125,.2));
+}
+
+h2{
+	text-align: center;
+	
+}
+
+h3{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+}
+
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+	
+}
+
+a{
+	text-decoration: none;
+    color: #000;
+	font-weight: bold;
+}
+
+.list{
+	font-size: 20px;
+	padding: 10px;
+}
+
+.list:hover
+{
+	background-color: white	 ;
+	border-radius:20px;
+	box-shadow: 2px 2px 5px  #999;
+}
+
+.our_menu{
+	text-align: center;
+}
+.menu{
+	margin-left: 480px;
+	list-style: none;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.35);
+	border-width: 8px;
+	border-radius: 20px;
+	border-spacing: 20px;
+    background-image: linear-gradient(to bottom right, #ff0000 0%, #ffff99 100%);
+    }
+
+.quote{
+	padding:25px;
+	background-image: radial-gradient(circle,rgba(255, 255, 255,0.1),rgba(255, 255, 255,0.5));
+	width:97%;
+	border-radius: 20%
+}
+/* start footer */
+.footer{
+	height:150px;
+	width:100%;
+	background-color:black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-box{
+	height:140px;
+	width:30%;
+	float:left;
+	color:white;
+	text-align:center;
+	
+	
+}
+
+.footer-box:a{
+	text-decoration:none;	
+}
+
+.link{
+	text-decoration: none;
+    color: #FFF;
+    font-weight: normal;
+}
+/* end footer */
